@@ -21,8 +21,8 @@
 package v1
 
 import (
-	v11 "github.com/middleware-labs/aws-demo/opentelemetry-proto/gen/go/common/v1"
-	v1 "github.com/middleware-labs/aws-demo/opentelemetry-proto/gen/go/resource/v1"
+	v11 "github.com/middleware-labs/aws-demo/open-telemetry/opentelemetry-proto/gen/go/common/v1"
+	v1 "github.com/middleware-labs/aws-demo/open-telemetry/opentelemetry-proto/gen/go/resource/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
