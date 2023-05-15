@@ -18,11 +18,11 @@
 // 	protoc        v3.14.0
 // source: opentelemetry/proto/metrics/v1/metrics.proto
 
-package v1
+package metrics
 
 import (
-	v11 "github.com/middleware-labs/aws-demo/open-telemetry/opentelemetry-proto/gen/go/common/v1"
-	v1 "github.com/middleware-labs/aws-demo/open-telemetry/opentelemetry-proto/gen/go/resource/v1"
+	v11 "github.com/middleware-labs/aws-demo/common"
+	v1 "github.com/middleware-labs/aws-demo/resource"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
